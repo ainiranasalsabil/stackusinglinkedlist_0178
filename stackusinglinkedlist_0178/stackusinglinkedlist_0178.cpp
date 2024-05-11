@@ -1,12 +1,9 @@
 #include <iostream>
 using namespace std;
 
-#include <iostream>
-using namespace std;
-
-class Node 
+class Node
 {
-public :
+public:
 	int data;
 	Node* next;
 
@@ -18,10 +15,10 @@ public :
 
 class stack
 {
-private :
+private:
 	Node* top;
 
-public :
+public:
 	stack()
 	{
 		top = NULL;
@@ -36,5 +33,9 @@ public :
 		cout << "Push value: " << value << endl;
 		return value;
 	}
+
+	void pop()
+	{
+		
 
 	
